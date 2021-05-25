@@ -3,14 +3,16 @@
 Solve all LeetCode problems in one line (Python3)
 
 ## Goals
+
 1. The code gets Accpet on LeetCode.
 2. Only one line. If the problem requires to implement an interface, then one line for each function required.
 3. The codes should use the fastest algorithm when possible.
-3. No semicolons, no eval nor similar.
-4. The code should be READABLE.
-5. Add explanation to explain how it works.
+4. No semicolons, no eval nor similar.
+5. The code should be READABLE. (So [onelinerizer](https://github.com/csvoss/onelinerizer) can not help)
+6. Add explanation to explain how it works.
 
 ## Example
+
 ```python
 # 1. Two Sum.py
 class Solution:
@@ -34,4 +36,6 @@ class Solution:
 ```
 
 ## Why?
+
 The community LOVES oneliner!
+[!img](./figures/loves.png)

@@ -38,4 +38,7 @@ class Solution:
 ## Why?
 
 The community LOVES oneliner!
-[!img](./figures/loves.png)
+
+![loves](/figures/loves.png)
+
+(or maybe not...)

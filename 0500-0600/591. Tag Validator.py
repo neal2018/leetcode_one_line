@@ -12,6 +12,6 @@ class Solution:
 class Solution:
     def isValid(self, code: str) -> bool:
         return reduce(lambda code, _:
-                      re.sub(r'<([A-Z]{1,9})>[^<]*</\1>', '-', code),
+                      re.sub(r'<([A-Z]{1,9})>[^<]*</\1>', '+', code),
                       range(50),
-                      re.sub(r'<!\[CDATA\[.*?\]\]>', '-', code)) == "-"
+                      re.sub(r'<!\[CDATA\[.*?\]\]>', '-', code)) == "+"
